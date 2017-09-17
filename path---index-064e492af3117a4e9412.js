@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{"./node_modules/json-loader/index.js!./.cache/json/index.json":function(e,t){e.exports={data:{site:{siteMetadata:{title:"Therése Äleklint"}},allMarkdownRemark:{edges:[{node:{excerpt:"– Jag vet att du känner det, viskar han och kommer närmare.\nHans röst är som knoppriga frön, den glider in genom mitt öra, börjar gro inuti...",frontmatter:{path:"/tva-bocker/",date:"16 September, 2017",title:"två böcker."}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-064e492af3117a4e9412.js.map

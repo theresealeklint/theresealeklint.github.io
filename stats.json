@@ -1,0 +1,46 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-bcc81cd963e99ae4acd6.js",
+      "component---src-pages-index-js-bcc81cd963e99ae4acd6.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "path---tva-bocker": [
+      "path---tva-bocker-a3d2e335f25c2165b63a.js",
+      "path---tva-bocker-a3d2e335f25c2165b63a.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-2a8c23aadaf608e19412.js",
+      "component---src-templates-blog-post-js-2a8c23aadaf608e19412.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-e683bb81ef08b5211424.js",
+      "component---src-layouts-index-js-e683bb81ef08b5211424.js.map"
+    ],
+    "path---index": [
+      "path---index-064e492af3117a4e9412.js",
+      "path---index-064e492af3117a4e9412.js.map"
+    ],
+    "commons": [
+      "commons-0ee3c07059f9f2fca1b1.js",
+      "commons-0ee3c07059f9f2fca1b1.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-c4d75fc1ad6313aacc39.js",
+      "build-js-styles.css",
+      "app-c4d75fc1ad6313aacc39.js.map",
+      "build-js-styles.css.map"
+    ]
+  }
+}
