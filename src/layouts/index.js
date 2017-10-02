@@ -2,15 +2,17 @@ import React from 'react';
 import Link from 'gatsby-link';
 import normalize from 'normalize.css';
 import Header from '../components/Header';
-import { injectGlobal, ThemeProvider } from 'styled-components';
+import styled, { injectGlobal, ThemeProvider } from 'styled-components';
 import theme from '../utils/theme';
-import { Grid } from 'react-styled-flexboxgrid';
+import { Grid as _Grid } from 'react-styled-flexboxgrid';
 
 injectGlobal`
   body {
+    font-family: "Lora", "Times New Roman", "serif";
     color: ${theme.colorGray};
     font-size: 1.125rem;
-    line-height: 1.5;
+    line-height: 1.6;
+    padding-bottom: 2rem;
   }
 
   h1, h2, h3 {
@@ -26,12 +28,22 @@ injectGlobal`
     }
   }
 
+  p {
+    margin: 1.5rem 0;
+  }
+
   blockquote {
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     color: ${theme.colorGrayLight};
+    font-style: italic;
+    margin: 3rem 1.5rem;
+
+    @media screen and (min-width: 768px) {
+      margin: 3rem;
+    }
 
     footer {
-      font-size: 1.125rem;
+      font-size: 1rem;
       font-style: italic;
     }
   }
@@ -42,23 +54,22 @@ injectGlobal`
   }
 `;
 
+const Grid = styled(_Grid)`
+  padding-left: ${p => p.theme.flexboxgrid.outerMargin}rem;
+  padding-right: ${p => p.theme.flexboxgrid.outerMargin}rem;
+`;
+
 class Template extends React.Component {
   render() {
     const { location, children } = this.props;
 
     return (
       <div>
-        <link
-          href="https://fonts.googleapis.com/css?family=Lora:400,700"
-          rel="stylesheet"
-        />
         <ThemeProvider theme={theme}>
-          <Grid>
-            <div>
-              <Header />
-              {children()}
-            </div>
-          </Grid>
+          <div>
+            <Header />
+            <Grid>{children()}</Grid>
+          </div>
         </ThemeProvider>
       </div>
     );

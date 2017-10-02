@@ -1,8 +1,7 @@
 const theme = {
   colorGray: '#444',
   colorGrayLight: '#666',
-  colorGreen: '#00ab6b',
-  colorBlue: '#0366d6',
+  colorGrayVeryLight: '#f0f0f0',
   flexboxgrid: {
     // Defaults
     gutterWidth: 1, // rem

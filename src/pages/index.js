@@ -25,7 +25,7 @@ class BlogIndex extends React.Component {
                 <Time dateTime={post.node.frontmatter.date}>
                   {post.node.frontmatter.date}
                 </Time>
-                <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
+                <p dangerouslySetInnerHTML={{ __html: post.node.html }} />
               </section>
             );
           }
@@ -59,6 +59,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
           }
+          html
         }
       }
     }
